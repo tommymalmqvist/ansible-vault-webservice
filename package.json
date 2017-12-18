@@ -1,0 +1,28 @@
+{
+  "name": "ansible-vault-webservice",
+  "version": "1.0.0",
+  "description": "ansible-vault webservice",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommymalmqvist/ansible-vault-webservice.git"
+  },
+  "keywords": [
+    "ansible",
+    "vault"
+  ],
+  "author": "Tommy Malmqvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommymalmqvist/ansible-vault-webservice/issues"
+  },
+  "homepage": "https://github.com/tommymalmqvist/ansible-vault-webservice#readme"
+}
