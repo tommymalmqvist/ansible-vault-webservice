@@ -6,10 +6,11 @@
  * ansible-vault exec
  */
 const child_process = require('child_process');
-const command = "ansible-vault encrypt_string"
+const password_file = ""
+const command = "ansible-vault --vault-password-file=" + password_file + " encrypt_string "
 
 function encrypt(data) {
-	const t = child_process.execSync(command + ' ' + data)
+	const t = child_process.execSync(command + data)
 	return t.toString()
 };
 
